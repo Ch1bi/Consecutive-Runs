@@ -40,12 +40,18 @@ public class consecutiveTest {
 		for(int i = 0; i < array.length-1; i++){
 			
 				
-				//if array position +1 equals current value of array +1 ... - gets indexes forward
+				//if array position +1 equals current value of array +1...-gets indexes in ascending order
 				if((array[i+1] == array[i] + 1) && (array[i+2] == array[i] + 2)){
 					
 					list.add(i);
 					
-						
+					
+				}
+				
+				////if array position +1 equals current value of array -1...-gets indexes in descending order
+				else if((array[i+1] == array[i] - 1) && (array[i+2] == array[i] - 2)){
+					
+					list.add(i);
 				}
 				
 			
