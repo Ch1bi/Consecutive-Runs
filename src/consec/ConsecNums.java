@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class consecutiveTest {
+public class ConsecNums {
 
 	public static void main(String[] args) {
 		
@@ -44,7 +44,7 @@ public class consecutiveTest {
 				if((array[i+1] == array[i] + 1) && (array[i+2] == array[i] + 2)){
 					
 					list.add(i);
-					
+						
 					
 				}
 				
@@ -53,10 +53,10 @@ public class consecutiveTest {
 					
 					list.add(i);
 				}
-				
 			
 			}
-			
+		
+		
 			
 			//create a new array equal to the collected list of indexes
 			int[] newArr = new int[list.size()];
