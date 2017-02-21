@@ -12,5 +12,5 @@ Must have Java installed. Download this project. Open your preferred Java Ide of
 
 ## Running the tests
 
-To run the test, open your preferred Java ide, right click on ConsecTest.java and run as Junit Test. Feel free to modify the test and values.
+To run the test, open your preferred Java ide, right click on ConsecTest.java and run as Junit Test. Feel free to modify the test and change values.
 
